@@ -31,16 +31,16 @@
             display: block;
             border-radius: 12px;
         }
-        /* وضع النص داخل الصندوق الأسود الموجود بالصورة */
+        /* ضبط موقع النص في سنتر المستطيل المفرغ */
         .status-text {
             position: absolute;
-            top: 28%;
+            top: 44%;
             left: 50%;
-            transform: translateX(-50%);
+            transform: translate(-50%, -50%);
             width: 65%;
             text-align: center;
             color: #ffffff;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: bold;
             text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
         }
@@ -57,10 +57,8 @@
 <body>
 
     <div class="banner-container">
-        <!-- صورتك المصممة بالكامل -->
         <img src="logo.png" alt="عالم الألعاب" class="banner-img">
         
-        <!-- نص الحالة الذي سيظهر داخل الصندوق الأسود في الصورة -->
         <div id="status-box" class="status-text">
             جاري التفعيل تلقائي...
         </div>
